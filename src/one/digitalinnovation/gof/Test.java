@@ -53,6 +53,8 @@ public class Test {
 		robo.mover();
 		robo.mover();
 		robo.mover();
+		robo.setComportamento(new ComportamentoCauteloso());
+		robo.mover();
 
 		// novo comportamento (sua melhoria)
 		robo.setComportamento(cauteloso);
